@@ -1,7 +1,7 @@
-#!/usr/bin/node
+#!/usr/local/bin/node
 var fs = require('fs')
 var keypress = require('keypress')
-var filename = process.argv[2]
+var filename = process.argv[2] || ''
 
 fs.readFile(filename, 'utf8', init)
 function init(err, data) {
