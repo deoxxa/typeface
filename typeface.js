@@ -1,4 +1,4 @@
-#!/usr/local/bin/node
+#!/usr/bin/env node
 var fs = require('fs')
 var keypress = require('keypress')
 var filename = process.argv[2] || ''
